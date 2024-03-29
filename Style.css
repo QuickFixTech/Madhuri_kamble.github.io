@@ -1,0 +1,176 @@
+/* CSS for styling the website */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+}
+
+.portfolio {
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.portfolio h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.portfolio p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.portfolio img {
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    border: 5px solid #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-left: 20px;
+}
+
+.education {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.education h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.education p {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.resume {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.resume h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.resume a {
+    font-size: 18px;
+    color: #333;
+}
+
+.projects {
+    margin-top: 30px;
+}
+
+.projects h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.project {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.project h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.project p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.project a {
+    font-size: 16px;
+    color: #007bff;
+}
+
+.courses {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.courses div {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.courses img {
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+    border: 5px solid #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+}
+
+.about {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.about h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icons a {
+    margin-right: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
